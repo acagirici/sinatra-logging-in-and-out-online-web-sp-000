@@ -3,6 +3,6 @@ class CreateUsers < ActiveRecord::Migration[5.1]
     create_table do |t|
       t.string :username
       t.string :password
-      t.
+      t.numeric :balance
   end
 end
